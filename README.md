@@ -3,6 +3,8 @@
 
 This guide will help you set up uninterrupted access to the Dropbox API using OAuth 2.0 and refresh tokens.
 
+Dropbox documentation: https://www.dropbox.com/developers/documentation/http/documentation
+
 ## Steps
 
 1. Authorize Your App
