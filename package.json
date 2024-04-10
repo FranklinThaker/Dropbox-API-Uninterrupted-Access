@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-dropbox-v2-uninterrupted-access",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --max-http-header-size 15000 --max-old-space-size=2048 app.js"
+  },
+  "keywords": [
+    "Node.js",
+    "Dropbox"
+  ],
+  "author": "Franklin P. Thaker",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-yaml": "^0.4.2"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "btoa": "^1.2.1",
+    "dotenv": "^16.4.5",
+    "dropbox": "^10.34.0",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^2.7.0"
+  }
+}

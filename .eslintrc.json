@@ -1,0 +1,95 @@
+{
+    "env": {
+        "commonjs": true
+    },
+    "extends": "airbnb-base",
+    "rules": {
+        "comma-dangle": [
+            1,
+            "always-multiline"
+        ],
+        "global-require": 0,
+        "import/no-dynamic-require": 0,
+        "no-prototype-builtins": 1,
+        "no-await-in-loop": 1,
+        "no-loop-func": 1,
+        "no-nested-ternary": 1,
+        "linebreak-style": 0,
+        "func-names": 1,
+        "no-param-reassign": 0,
+        "space-before-function-paren": 1,
+        "space-before-blocks": 1,
+        "camelcase": 0,
+        "semi": 1,
+        "max-len": [
+            0
+        ],
+        "no-else-return": 1,
+        "no-underscore-dangle": [
+            "off"
+        ],
+        "guard-for-in": 1,
+        "no-restricted-syntax": 1,
+        "no-shadow": 1,
+        "no-console": 1,
+        "consistent-return": 0,
+        "spaced-comment": 1,
+        "padded-blocks": 1,
+        "indent": [
+            "error",
+            2,
+            {
+                "MemberExpression": 1
+            }
+        ],
+        "sort-imports": [
+            "error",
+            {
+                "ignoreCase": false,
+                "ignoreDeclarationSort": false,
+                "ignoreMemberSort": false,
+                "memberSyntaxSortOrder": [
+                    "none",
+                    "all",
+                    "multiple",
+                    "single"
+                ],
+                "allowSeparatedGroups": false
+            }
+        ],
+        "import/order": [
+            1,
+            {
+                "groups": [
+                    "external",
+                    "builtin",
+                    "internal",
+                    "sibling",
+                    "parent",
+                    "index"
+                ],
+                "pathGroupsExcludedImportTypes": [
+                    "internal"
+                ],
+                "alphabetize": {
+                    "order": "asc",
+                    "caseInsensitive": true
+                }
+            }
+        ]
+    },
+    "overrides": [
+        {
+            "files": [
+                "*.yaml",
+                "*.yml"
+            ],
+            "plugins": [
+                "yaml"
+            ],
+            "extends": [
+                "plugin:yaml/recommended"
+            ]
+        }
+    ]
+}
