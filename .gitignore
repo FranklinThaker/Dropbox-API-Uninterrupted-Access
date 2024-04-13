@@ -1,2 +1,8 @@
-.env
+# npm install generated
 node_modules
+
+# secrets
+.env
+
+# intellij
+.idea
